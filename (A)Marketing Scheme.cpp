@@ -23,6 +23,11 @@ int main()
     {
     	long long l, r;
    		cin >> l >> r;
+		
+		/*
+		When r is less than 2l, there will be no possible answer.
+		because it is given that x mod a >= a/2
+		*/
     	if (2 * l > r)
     		cout<<"YES\n";
     	else
